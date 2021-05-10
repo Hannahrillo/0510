@@ -33,7 +33,7 @@ class MyAdapter(private val context: Context, private val items: ArrayList<perso
                 }
             }
             else{
-                personPhoto.setImageResource(R.mipmap.ic_launcher_round)
+                personPhoto.setImageResource(R.mipmap.normal) //기본이미지
             }
             //TextView에 데이터 세팅
             personName.text = person.name
