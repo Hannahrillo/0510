@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/select_type"
+        android:orientation="horizontal"
+        android:layout_height="60dp"
+        android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/select_btn_1"
+            android:text="@string/btn1"
+            android:layout_height="50dp"
+            android:layout_width="60dp"/>
+        <Button
+            android:id="@+id/select_btn_2"
+            android:text="@string/btn2"
+            android:layout_height="50dp"
+            android:layout_width="60dp"/>
+        <Button
+            android:id="@+id/select_btn_3"
+            android:text="@string/btn3"
+            android:layout_height="50dp"
+            android:layout_width="60dp"/>
+        <Button
+            android:id="@+id/select_btn_4"
+            android:text="@string/btn4"
+            android:layout_height="50dp"
+            android:layout_width="60dp"/>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seach_here"
+        android:textSize="30sp"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/go_back_btn"
+        android:src="@drawable/go_back_btn"
+        />
+
+
+</LinearLayout>

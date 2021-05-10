@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">0510</string>
+    <string name="jayoungs_app">Jayoungs app</string>
+    <string name="clicked">clicked!</string>
+    <string name="btn1">Btn1</string>
+    <string name="btn2">Btn2</string>
+    <string name="btn3">Btn3</string>
+    <string name="btn4">Btn3</string>
+    <string name="seach_here">seach here</string>
+    <string name="name">Name</string>
+</resources>
